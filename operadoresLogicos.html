@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+
+	<script type="text/javascript">
+		var numero1 = prompt ("digite o primeiro numero");
+		var numero2 = prompt ("digite o segundo numero");
+
+
+
+		if (numero1  < 20 && numero2 < 20 ) {
+			alert ("numeros menores que 20");
+		}
+
+	    if (numero1 > 1000 || numero2 > 1000)  {
+			alert ("um dos dois numeros sao maiores que mil");
+		}
+		else if (numero1 == numero2) {
+			alert ("numeros iguais");
+		}
+		else if (numero1 != numero2) {
+			alert ("numeros diferentes");
+		}
+		if (numero1 > numero2) {
+			alert ("o priemiro numero é maior que o segundo");
+		}
+		else if (numero1 < numero2) {
+			alert ("o primeiro numero é menor que o segundo")
+		}
+
+
+
+	
+	</script>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>condicional</th>
+			<th>operador</th>
+		</tr>
+		<tr>
+			<td>igual</td>
+			<td> == </td>
+		</tr>
+		<tr>
+			<td>diferente</td>
+			<td> !=</td>
+		</tr>
+
+		<tr>
+			<td>E</td>
+			<td> &&</td>
+		</tr>
+
+		<tr>
+			<td>OU</td>
+			<td> ||</td>
+		</tr>
+
+		<tr>
+			<td>maior</td>
+			<td> ></td>
+		</tr>
+
+		<tr>
+			<td>menor</td>
+			<td> < </td>
+		</tr>
+
+		<tr>
+			<td>menor igual</td>
+			<td> <= </td>
+		</tr>
+		<tr>
+			<td>maior igual</td>
+			<td> >= </td>
+		</tr>
+	</table>
+
+	<h1> Exercicio</h1>
+	<ul>
+		<li>receber um numero do usuario</li>
+		<li>receber outro numero</li>
+		<li> se os dois numeros forem menor que 20, mostrar numeros menores que 20  </li>
+		<li> se o primeiro ou o segundo numero for maior que 1000, mostrar um dos numeros é maior que 1000</li>
+		<li>verificar se os numeros são iguais, mostrar numeros iguais</li>
+		<li>verificar se os numeros são diferentes, mostrar numeros diferentes
+		</li>
+		<li>verificar se os numeros são diferentes, mostrar numeros diferente</li>
+		<li>se o primeiro numero for maior que o segundo, mostrar primeiro numero é maior</li>
+		<li>se o primeiro numero for menor que o segundo, mostrar primeiro numero é menor</li>
+	</ul>
+</body>
+</html>

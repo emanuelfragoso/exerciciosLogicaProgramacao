@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript"> 
+var media;
+var notasUsuario = [];
+var cont;
+for (cont = 0; cont <4; cont ++) {
+	notasUsuario[cont] = parseInt(prompt ("qual " + (cont +1) + " nota?"));
+}
+
+media = (notasUsuario[0] + notasUsuario[1] + notasUsuario[2] + notasUsuario[3]) / 4;
+
+if (media >= 7 ) {
+	alert ("estudande aprovado");
+}
+else {
+alert ("estudante reprovado");
+}
+</script>
+<body>
+
+</body>
+</html>

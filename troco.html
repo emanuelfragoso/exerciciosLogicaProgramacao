@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<script type="text/javascript">
+	var valorDoProduto;
+	var valorPago;
+	var troco;
+valorDoProduto = prompt ("qual valor do produto?");
+valorPago = prompt ("qual valor pago?");
+
+if (valorPago == valorDoProduto) {
+	alert ("não tem troco");
+}
+
+if ( valorDoProduto > valorPago) {
+	alert ("falta pagar:"+ (valorDoProduto - valorPago));
+}
+
+if (valorPago > valorDoProduto){
+	troco = valorPago - valorDoProduto;
+	alert ("o valor do troco é:" + troco);
+}
+
+
+</script>
+<body>
+	<h1> Exercicío do troco</h1>
+	<ul>
+		<li>pedir valor do produto</li>
+		<li>pedir valor pago</li>
+		<li>mostrar valor do troco</li>
+		<li>se não tiver troco, mostrar a frase : produto pago</li>
+		<li>se o valor for menor, mostrar o quanto falta pagar</li>
+	</ul>
+	
+	</body>
+</html>
